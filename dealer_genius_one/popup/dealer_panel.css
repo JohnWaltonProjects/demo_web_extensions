@@ -1,0 +1,10 @@
+html, body {
+  width: 150px;
+  border: solid 2px black;
+
+}
+
+.hidden {
+  display: none;
+}
+

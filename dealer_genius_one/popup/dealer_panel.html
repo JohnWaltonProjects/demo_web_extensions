@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="dealer_panel.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="materialize.css">
+    <script src="materialize.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+  </head>
+
+
+
+
+<body>
+  <div id="popup-content">
+    <h6 class="brand-logo">
+      <img src="../icons/atom-48.png" alt="Atom Copier" class="brand-logo"> Dealer Savior <span class="version">(1.0.0)</span>
+    </h6>
+
+    <div style="padding-top: 15px">
+      <button class="btn btn-small white black-text  waves-effect waves-light" id="paste" style="border: solid 2px black;">
+        <i class="material-icons black-text" style="padding-right: 5px;">content_paste</i>Fill Out Form
+      </button>
+    </div>
+
+  <p style="padding: 5px;">
+    <div>Hours Saved: <span id="hours-saved">0.00</span> </div>
+    <div>Money Saved: <span id="money-saved">$0.00</span> </div><br>
+
+    <div style="text-align: center">
+      <button type="button" class="btn btn-small white black-text  waves-effect waves-light" id="get-support" style="border: solid 2px black;">Get Help</button>
+    </div>
+
+    <div id="support" class="hidden">
+     <h5>Get Assistance:</h5>
+     <form style="text-align: center;">
+       <input name="name" placeholder="Name:">
+       <input name="email" placeholder="Email:">
+       <input name="phone_number" placeholder="Phone Number:">
+       <input name="problem_descr" type="text" placeholder="Problem:">
+       <button type="submit" class="btn btn-small white black-text  waves-effect waves-light" style="border: solid 2px black;">Send!</button>
+     </form>
+   </div>
+
+  <script src="dealer_panel.js"></script>
+  </div>
+</body>
+
+</html>
